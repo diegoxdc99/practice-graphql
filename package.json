@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon -e js,graphql index",
+    "dev": "nodemon -e js,graphql asincrono.js",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix"
   },
@@ -15,7 +15,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-graphql": "^0.9.0",
-    "graphql": "^14.4.2"
+    "graphql": "^14.4.2",
+    "graphql-tools": "^4.0.5"
   },
   "devDependencies": {
     "eslint": "^6.1.0",
